@@ -19,6 +19,16 @@ type Project = {
 // Projets (ordre : plus récent → plus ancien)
 const projects: Project[] = [
   {
+  id: 12,
+  title: "SportConnect — Architecture Data & POC Cloud-Native",
+  description:
+    "Conception d’une architecture de données scalable pour une plateforme sociale sportive, combinant bases relationnelles, séries temporelles et stockage objet.",
+  period: "2026",
+  image: "/project/sportconnect.png",
+  skills: ["PostgreSQL", "InfluxDB", "MinIO", "Docker", "SQL"],
+  link: "#"
+  },
+  {
     id: 5,
     title: "Microservices Deployment on Kubernetes",
     description: "Déploiement d’une application distribuée de suivi de flotte sur un cluster Kubernetes multi-nœuds avec architecture microservices.",

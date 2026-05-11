@@ -653,6 +653,69 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
       }
     ]
   }
+  12: {
+  id: 12,
+  title: "SportConnect — Architecture Data & POC Cloud-Native",
+  company: "Projet académique / Data Engineering",
+  overview:
+    "Conception d’une architecture de données scalable pour une plateforme sociale sportive. Le projet repose sur une architecture polyglotte permettant de gérer des données relationnelles, temporelles et multimédias à travers PostgreSQL, InfluxDB et MinIO.",
+  mainImage: "/project/sportconnect.png",
+  link: "/projects/12",
+  github: "",
+  features: [
+    {
+      title: "Architecture de données polyglotte",
+      description:
+        "Séparation des workloads avec PostgreSQL pour les données relationnelles, InfluxDB pour les séries temporelles issues de capteurs, et MinIO pour le stockage objet."
+    },
+    {
+      title: "Déploiement conteneurisé",
+      description:
+        "Mise en place d’un environnement de preuve de concept avec Docker Compose afin de faciliter le déploiement et la reproductibilité du projet."
+    },
+    {
+      title: "Modélisation et optimisation SQL",
+      description:
+        "Conception du modèle de données, écriture de requêtes SQL analytiques et optimisation des accès aux données."
+    },
+    {
+      title: "Sécurité, sauvegarde et scalabilité",
+      description:
+        "Implémentation de stratégies d’administration incluant sécurité, sauvegarde, réplication et préparation à la montée en charge."
+    }
+  ],
+  techStack: [
+    {
+      category: "Bases de données",
+      items: ["PostgreSQL", "InfluxDB", "MinIO"]
+    },
+    {
+      category: "Déploiement",
+      items: ["Docker", "Docker Compose"]
+    },
+    {
+      category: "Data Engineering",
+      items: ["SQL", "Modélisation de données", "Optimisation de requêtes"]
+    }
+  ],
+  achievements: [
+    {
+      metric: "Types de données gérés",
+      value: "3",
+      change: 3
+    },
+    {
+      metric: "Bases intégrées",
+      value: "3",
+      change: 3
+    },
+    {
+      metric: "Déploiement",
+      value: "Docker Compose",
+      change: 1
+    }
+   ]
+  },
 }
 
 export const getProjectById = (id: number): ProjectDetail | undefined => {

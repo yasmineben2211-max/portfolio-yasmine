@@ -1,6 +1,6 @@
 'use client'
 
-import { motion, useScroll, useTransform } from "framer-motion"
+import { motion, useScroll, useTransform } from "motion/react"
 import { useEffect, useState } from "react"
 
 // This is an optional background effect that displays floating elements
