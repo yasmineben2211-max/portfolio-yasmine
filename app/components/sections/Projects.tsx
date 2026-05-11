@@ -19,6 +19,16 @@ type Project = {
 // Projets (ordre : plus récent → plus ancien)
 const projects: Project[] = [
   {
+  id: 13,
+  title: "Crypto Data Pipeline & BI Dashboard",
+  description:
+    "Pipeline de données complète pour l’analyse de cryptomonnaies en temps quasi réel, avec orchestration, transformations SQL, dashboard BI et prédiction des tendances.",
+  period: "2026",
+  image: "/project/crypto-pipeline.png",
+  skills: ["Dagster", "DuckDB", "dbt", "Streamlit", "scikit-learn", "Docker"],
+  link: "#"
+  },
+  {
   id: 12,
   title: "SportConnect — Architecture Data & POC Cloud-Native",
   description:

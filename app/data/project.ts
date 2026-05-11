@@ -652,7 +652,7 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
         change: 1
       }
     ]
-  }
+  },
   12: {
   id: 12,
   title: "SportConnect — Architecture Data & POC Cloud-Native",
@@ -715,6 +715,73 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
       change: 1
     }
    ]
+  },
+  13: {
+  id: 13,
+  title: "Crypto Data Pipeline & BI Dashboard",
+  company: "Projet académique / Data Engineering",
+  overview:
+    "Conception d’une pipeline de données complète dédiée à l’analyse des cryptomonnaies en temps quasi réel. Le projet transforme des données brutes issues d’une API crypto en indicateurs analytiques, visualisations interactives et prédictions exploitables pour l’aide à la décision.",
+  mainImage: "/project/crypto-pipeline.png",
+  link: "/projects/13",
+  github: "",
+  features: [
+    {
+      title: "Extraction automatisée des données",
+      description:
+        "Collecte de données crypto via l’API CoinGecko avec une architecture ELT modulaire."
+    },
+    {
+      title: "Orchestration et monitoring",
+      description:
+        "Utilisation de Dagster pour orchestrer les runs, suivre l’exécution de la pipeline et gérer les erreurs."
+    },
+    {
+      title: "Transformation et qualité des données",
+      description:
+        "Modélisation analytique avec dbt, transformations SQL, calcul de KPI, moyennes mobiles et tests de qualité avec dbt et pytest."
+    },
+    {
+      title: "Dashboard BI et prédiction",
+      description:
+        "Création d’un dashboard interactif avec Streamlit et intégration d’un modèle scikit-learn pour prédire les tendances de prix."
+    }
+  ],
+  techStack: [
+    {
+      category: "Orchestration & Pipeline",
+      items: ["Dagster", "ELT", "Data Pipeline"]
+    },
+    {
+      category: "Stockage & Transformation",
+      items: ["DuckDB", "dbt", "SQL"]
+    },
+    {
+      category: "BI & Machine Learning",
+      items: ["Streamlit", "scikit-learn", "Python"]
+    },
+    {
+      category: "Déploiement",
+      items: ["Docker", "pytest"]
+    }
+  ],
+  achievements: [
+    {
+      metric: "Architecture",
+      value: "ELT",
+      change: 1
+    },
+    {
+      metric: "Outils intégrés",
+      value: "6+",
+      change: 6
+    },
+    {
+      metric: "Source de données",
+      value: "CoinGecko API",
+      change: 1
+    }
+    ]
   },
 }
 
