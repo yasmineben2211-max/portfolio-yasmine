@@ -137,6 +137,23 @@ const projects: Project[] = [
     link: "#"
   },
   {
+  id: 14,
+  title: "Taxi & Weather Data Pipeline",
+  description:
+    "Pipeline de données distribué permettant l’ingestion, la transformation et l’orchestration de données Taxi NYC et météo avec PySpark et Airflow.",
+  period: "2026",
+  image: "/project/taxi-pipeline.png",
+  skills: [
+    "PySpark",
+    "Apache Airflow",
+    "PostgreSQL",
+    "Docker",
+    "SQL",
+    "ETL"
+  ],
+  link: "https://github.com/chifa376/taxi-weather-pipeline"
+  },
+  {
     id: 11,
     title: "Carte de régulation de vitesse (moteur DC)",
     description:

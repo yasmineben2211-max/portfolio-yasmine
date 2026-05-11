@@ -783,6 +783,76 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
     }
     ]
   },
+  14: {
+  id: 14,
+  title: "Taxi & Weather Data Pipeline",
+  company: "Projet Data Engineering",
+  overview:
+    "Conception et développement d’un pipeline de données distribué permettant l’ingestion, la transformation et l’orchestration de données Taxi NYC et météo. Le projet repose sur une architecture ETL automatisée utilisant PySpark, Airflow et PostgreSQL.",
+  mainImage: "/project/taxi-pipeline.png",
+  link: "https://github.com/chifa376/taxi-weather-pipeline",
+  github: "https://github.com/chifa376/taxi-weather-pipeline",
+
+  features: [
+    {
+      title: "Pipeline ETL distribué",
+      description:
+        "Traitement et transformation des données Taxi NYC et météo avec PySpark."
+    },
+    {
+      title: "Orchestration automatisée",
+      description:
+        "Utilisation d’Apache Airflow pour automatiser les workflows et superviser les exécutions."
+    },
+    {
+      title: "Stockage analytique",
+      description:
+        "Stockage des données transformées dans PostgreSQL avec calcul de métriques analytiques."
+    },
+    {
+      title: "Conteneurisation",
+      description:
+        "Déploiement complet de l’architecture avec Docker afin d’assurer la portabilité et la reproductibilité."
+    }
+  ],
+
+  techStack: [
+    {
+      category: "Data Engineering",
+      items: ["PySpark", "ETL", "SQL"]
+    },
+    {
+      category: "Orchestration",
+      items: ["Apache Airflow"]
+    },
+    {
+      category: "Stockage",
+      items: ["PostgreSQL"]
+    },
+    {
+      category: "Infrastructure",
+      items: ["Docker", "Git", "GitHub"]
+    }
+  ],
+
+  achievements: [
+    {
+      metric: "Trajets traités",
+      value: "47K+",
+      change: 47000
+    },
+    {
+      metric: "Architecture",
+      value: "Pipeline ETL",
+      change: 1
+    },
+    {
+      metric: "Automatisation",
+      value: "Airflow",
+      change: 1
+    }
+  ]
+  },
 }
 
 export const getProjectById = (id: number): ProjectDetail | undefined => {
