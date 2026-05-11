@@ -41,36 +41,34 @@ export default function Hero() {
       </main>
 
       <AnimatedText className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="mailto:yasminebenhajsalah2211@gmail.com"
-        >
-          <Image
-            aria-hidden
-            src="/mail.svg"
-            alt="Email"
-            width={16}
-            height={16}
-          />
-          Me contacter
-        </a>
+  <a
+    className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+    href="mailto:yasminebenhajsalah2211@gmail.com"
+  >
+    <Image aria-hidden src="/mail.svg" alt="Email" width={16} height={16} />
+    Me contacter
+  </a>
 
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/yasmine-ben-haj-salah-6215122a0/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/linkedin.svg"
-            alt="LinkedIn"
-            width={16}
-            height={16}
-          />
-          LinkedIn
-        </a>
-      </AnimatedText>
+  <a
+    className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+    href="https://www.linkedin.com/in/yasmine-ben-haj-salah-6215122a0/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image aria-hidden src="/linkedin.svg" alt="LinkedIn" width={16} height={16} />
+    LinkedIn
+  </a>
+
+  <a
+    className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+    href="https://github.com/yasminebenhajsalah2211-max"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image aria-hidden src="/github.svg" alt="GitHub" width={16} height={16} />
+    GitHub
+  </a>
+</AnimatedText>
     </section>
   )
 }
