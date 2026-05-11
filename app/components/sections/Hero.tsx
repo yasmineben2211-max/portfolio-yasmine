@@ -128,5 +128,32 @@ export default function Hero() {
             />
             Voir mon CV
           </a>
+          <a
+             className="
+                relative
+                z-20
+                rounded-full border border-solid border-black/[.08]
+                transition-colors flex items-center justify-center 
+                hover:bg-[#f2f2f2]
+                h-12
+                px-5
+                text-base
+            "
+            href="https://github.com/yasminebenhajsalah2211-max"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              className="invert mr-2"
+              src="/github.svg"
+              alt="GitHub"
+              width={20}
+              height={20}
+            />
+
+            <span className="relative z-20">
+              GitHub
+            </span>
+          </a>
         </AnimatedText>
         */
