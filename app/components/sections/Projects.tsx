@@ -19,6 +19,26 @@ type Project = {
 // Projets (ordre : plus récent → plus ancien)
 const projects: Project[] = [
   {
+  id: 16,
+    title: "Météo France — Data Visualization Dashboard",
+    description:
+      "Dashboard interactif de visualisation climatique sur la France avec Metabase, données Météo France et cartes GeoJSON par région et département.",
+    period: "Mai 2026 – Juin 2026",
+    image: "/project/meteo-dashboard.png",
+    skills: ["Metabase", "Docker", "PostgreSQL", "Python", "GeoJSON", "Data Viz"],
+    link: "https://github.com/yasminebenhajsalah2211-max/meteo-france-metabase-dashboard"
+  },
+  {
+  id: 15,
+    title: "SUPFile — Cloud Storage Platform",
+    description:
+      "Application web full-stack de stockage cloud inspirée de Google Drive, développée en binôme. Upload chiffré, partage par lien public (mot de passe + expiration), partage interne entre utilisateurs, prévisualisation de fichiers, recherche en temps réel, dark mode, raccourcis clavier et infinite scroll.",
+    period: "Jan. 2026 – Juin 2026",
+    image: "/project/supfile.png",
+    skills: ["React", "TypeScript", "NestJS", "PostgreSQL", "Docker", "JWT", "OAuth2", "REST API"],
+    link: "https://github.com/yasminebenhajsalah2211-max/Supfile"
+  },
+  {
   id: 13,
   title: "Crypto Data Pipeline & BI Dashboard",
   description:
@@ -27,6 +47,23 @@ const projects: Project[] = [
   image: "/project/crypto-pipeline.png",
   skills: ["Dagster", "DuckDB", "dbt", "Streamlit", "scikit-learn", "Docker"],
   link: "#"
+  },
+  {
+  id: 14,
+  title: "Taxi & Weather Data Pipeline",
+  description:
+    "Pipeline de données distribué permettant l’ingestion, la transformation et l’orchestration de données Taxi NYC et météo avec PySpark et Airflow.",
+  period: "2026",
+  image: "/project/taxi-pipeline.png",
+  skills: [
+    "PySpark",
+    "Apache Airflow",
+    "PostgreSQL",
+    "Docker",
+    "SQL",
+    "ETL"
+  ],
+  link: "https://github.com/chifa376/taxi-weather-pipeline"
   },
   {
   id: 12,
@@ -106,16 +143,7 @@ const projects: Project[] = [
     skills: ["Altium Designer", "PIC", "Audio", "Électronique analogique", "PCB"],
     link: "#"
   },
-  {
-  id: 15,
-    title: "SUPFile — Cloud Storage Platform",
-    description:
-      "Application web full-stack de stockage cloud inspirée de Google Drive, développée en binôme. Upload chiffré, partage par lien public (mot de passe + expiration), partage interne entre utilisateurs, prévisualisation de fichiers, recherche en temps réel, dark mode, raccourcis clavier et infinite scroll.",
-    period: "Jan. 2026 – Juin 2026",
-    image: "/project/supfile.png",
-    skills: ["React", "TypeScript", "NestJS", "PostgreSQL", "Docker", "JWT", "OAuth2", "REST API"],
-    link: "https://github.com/yasminebenhajsalah2211-max/Supfile"
-  },
+  
   {
     id: 8,
     title: "Parking intelligent — Gestion de stationnement & embouteillages",
@@ -146,23 +174,7 @@ const projects: Project[] = [
     skills: ["Altium Designer", "Capteurs", "LCD", "Contrôle", "Électronique"],
     link: "#"
   },
-  {
-  id: 14,
-  title: "Taxi & Weather Data Pipeline",
-  description:
-    "Pipeline de données distribué permettant l’ingestion, la transformation et l’orchestration de données Taxi NYC et météo avec PySpark et Airflow.",
-  period: "2026",
-  image: "/project/taxi-pipeline.png",
-  skills: [
-    "PySpark",
-    "Apache Airflow",
-    "PostgreSQL",
-    "Docker",
-    "SQL",
-    "ETL"
-  ],
-  link: "https://github.com/chifa376/taxi-weather-pipeline"
-  },
+
   {
     id: 11,
     title: "Carte de régulation de vitesse (moteur DC)",

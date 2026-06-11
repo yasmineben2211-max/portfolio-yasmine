@@ -853,6 +853,132 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
     }
   ]
   },
+  16: {
+    id: 16,
+    title: "Météo France — Data Visualization Dashboard",
+    company: "Projet académique · 4DVST Data Visualization",
+    overview:
+      "Dashboard interactif de visualisation des données climatiques françaises, construit avec Metabase et des données open data Météo France. Le projet combine cartes GeoJSON par région/département, storytelling analytique et conteneurisation Docker.",
+    mainImage: "/project/meteo-dashboard.png",
+    link: "https://github.com/yasminebenhajsalah2211-max/meteo-france-metabase-dashboard",
+    github: "https://github.com/yasminebenhajsalah2211-max/meteo-france-metabase-dashboard",
+    features: [
+      {
+        title: "Visualisations climatiques interactives",
+        description:
+          "Graphiques et cartes interactives représentant températures, précipitations et tendances climatiques par région et département français via GeoJSON."
+      },
+      {
+        title: "Storytelling & analyse des données",
+        description:
+          "Récit cohérent à travers les données Météo France : contexte, objectifs, insights et conclusions présentés en anglais lors de la soutenance."
+      },
+      {
+        title: "Pipeline de données",
+        description:
+          "Pré-traitement des données CSV et API open data (meteo.data.gouv.fr), chargement dans PostgreSQL, intégration Metabase."
+      },
+      {
+        title: "Déploiement conteneurisé",
+        description:
+          "Architecture Docker complète : Metabase + PostgreSQL orchestrés via Docker Compose pour un déploiement reproductible en une commande."
+      }
+    ],
+    techStack: [
+      {
+        category: "Visualisation",
+        items: ["Metabase", "GeoJSON", "Dashboard"]
+      },
+      {
+        category: "Data Engineering",
+        items: ["Python", "CSV", "API open data", "PostgreSQL"]
+      },
+      {
+        category: "Infrastructure",
+        items: ["Docker", "Docker Compose"]
+      }
+    ],
+    achievements: [
+      {
+        metric: "Source de données",
+        value: "Météo France",
+        change: 1
+      },
+      {
+        metric: "Couverture géographique",
+        value: "France entière",
+        change: 1
+      },
+      {
+        metric: "Déploiement",
+        value: "Docker Compose",
+        change: 1
+      }
+    ]
+  },
+  15: {
+    id: 15,
+    title: "SUPFile — Cloud Storage Platform",
+    company: "Projet académique en binôme · ENSEA",
+    overview:
+      "Application web full-stack de stockage cloud inspirée de Google Drive, développée en binôme de janvier à juin 2026. Le projet couvre l'ensemble de la chaîne : authentification sécurisée, gestion de fichiers chiffrés, partage avancé et interface lavender/cloud moderne.",
+    mainImage: "/project/supfile.png",
+    link: "https://github.com/yasminebenhajsalah2211-max/Supfile",
+    github: "https://github.com/yasminebenhajsalah2211-max/Supfile",
+    features: [
+      {
+        title: "Gestionnaire de fichiers complet",
+        description:
+          "Upload multi-fichiers avec drag & drop, barre de progression individuelle, gestion des doublons, création/renommage/déplacement/suppression de dossiers, corbeille avec restauration, téléchargement ZIP à la volée."
+      },
+      {
+        title: "Authentification & sécurité",
+        description:
+          "Connexion email/mot de passe avec JWT, OAuth2 Google et GitHub, chiffrement des fichiers côté serveur, routes API sécurisées."
+      },
+      {
+        title: "Partage avancé",
+        description:
+          "Génération de liens publics avec date d'expiration et mot de passe optionnel, partage interne de dossiers entre utilisateurs inscrits, page de téléchargement publique sans compte requis."
+      },
+      {
+        title: "UX moderne",
+        description:
+          "Skeleton loading, infinite scroll, menu contextuel (clic droit + bouton ⋮), raccourcis clavier (↑↓ navigation, Del suppression, Ctrl+K recherche), dark mode, notifications toast avec file d'attente."
+      }
+    ],
+    techStack: [
+      {
+        category: "Frontend",
+        items: ["React", "TypeScript", "Vite"]
+      },
+      {
+        category: "Backend",
+        items: ["NestJS", "PostgreSQL", "JWT", "OAuth2"]
+      },
+      {
+        category: "Infrastructure",
+        items: ["Docker", "Docker Compose", "REST API"]
+      }
+    ],
+    achievements: [
+      {
+        metric: "Services Docker",
+        value: "3",
+        change: 3
+      },
+      {
+        metric: "Pages & fonctionnalités",
+        value: "12+",
+        change: 12
+      },
+      {
+        metric: "Durée",
+        value: "6 mois",
+        change: 6
+      }
+    ]
+  },
 }
 
 export const getProjectById = (id: number): ProjectDetail | undefined => {
