@@ -107,6 +107,16 @@ const projects: Project[] = [
     link: "#"
   },
   {
+  id: 15,
+    title: "SUPFile — Cloud Storage Platform",
+    description:
+      "Application web full-stack de stockage cloud inspirée de Google Drive, développée en binôme. Upload chiffré, partage par lien public (mot de passe + expiration), partage interne entre utilisateurs, prévisualisation de fichiers, recherche en temps réel, dark mode, raccourcis clavier et infinite scroll.",
+    period: "Jan. 2026 – Juin 2026",
+    image: "/project/supfile.png",
+    skills: ["React", "TypeScript", "NestJS", "PostgreSQL", "Docker", "JWT", "OAuth2", "REST API"],
+    link: "https://github.com/yasminebenhajsalah2211-max/Supfile"
+  },
+  {
     id: 8,
     title: "Parking intelligent — Gestion de stationnement & embouteillages",
     description:

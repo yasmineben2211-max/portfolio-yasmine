@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import AnimatedText from "../common/AnimatedText"
-import { motion } from "framer-motion"
+import { motion } from "motion/react"
 
 interface CourseItem {
   date: string
