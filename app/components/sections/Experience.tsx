@@ -21,33 +21,54 @@ type Experience = {
 const experiences: Experience[] = [
   {
     id: 1,
-    title: "Stagiaire — Génération 3D (IA générative)",
+    title: "Stagiaire Ingénieure Robotique & Intelligence Artificielle",
+    company: "Enova ROBOTICS",
+    period: "Juin 2026 – Aujourd’hui • Sousse (Hybride)",
+    logo: "/companyicon/enova.png",
+    skills: [
+      "Python",
+      "ROS",
+      "Linux",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Time Series",
+      "Anomaly Detection",
+      "Machine Learning",
+      "Git"
+    ],
+    description:
+      "Développement d’une solution de détection prédictive d’anomalies pour un robot mobile autonome à partir de données LiDAR 3D, IMU et diagnostics système dans une architecture ROS."
+  },
+  {
+    id: 2,
+    title: "Stagiaire — Génération 3D avec IA générative",
     company: "INEDIIA",
     period: "Mai 2024 – Sept. 2024 • Lille (sur site)",
     logo: "/companyicon/inediia.png",
     skills: ["Python", "PyTorch", "TensorFlow", "GANs", "CLIP", "Point-E", "Blender", "Unity"],
     description:
-      "Optimisation de la cohérence visuelle et sémantique de modèles 3D générés à partir de texte. Développement de pipelines IA, gestion de contraintes 3D (profondeur, perspective) et validation des rendus via Blender/Unity."
-  },
-  {
-    id: 2,
-    title: "Développement d’un système de détection biomédicale (Radar)",
-    company: "ACTIA Engineering Services",
-    period: "Sept. 2022 – Août 2023 • Tunis (sur site)",
-    logo: "/companyicon/actia.png",
-    skills: ["Traitement du signal", "UART", "BLE", "NRF52/NRF523", "Qt Creator", "C/C++", "TCP/IP"],
-    description:
-      "Développement d’un radar biomédical pour détecter rythme cardiaque et respiration en temps réel. Mise en place d’un pipeline de communication UART → module NRF52/NRF523, puis BLE vers une application mobile Qt pour la visualisation temps réel."
+      "Optimisation de la cohérence visuelle et sémantique de modèles 3D générés à partir de texte."
   },
   {
     id: 3,
-    title: "Stagiaire — Conception de carte de commande électronique",
+    title: "Développement d’un système de détection biomédicale",
+    company: "ACTIA Engineering Services",
+    period: "Sept. 2022 – Août 2023 • Tunis (sur site)",
+    logo: "/companyicon/actia.png",
+    skills: ["Traitement du signal", "UART", "BLE", "NRF52", "Qt Creator", "C/C++", "TCP/IP"],
+    description:
+      "Développement d’un radar biomédical pour détecter le rythme cardiaque et la respiration en temps réel."
+  },
+  {
+    id: 4,
+    title: "Stagiaire — Conception de carte électronique",
     company: "Kodji Robot",
     period: "Juil. 2022 • Sousse (sur site)",
     logo: "/companyicon/kodji.png",
     skills: ["Altium Designer", "ATmega32", "PCB", "Schématique", "Routage", "Arduino"],
     description:
-      "Conception d’une carte de commande basée sur ATmega32 (type Arduino). Réalisation du schéma et du routage PCB sous Altium Designer, avec documentation technique détaillant spécifications et usages possibles."
+      "Conception d’une carte de commande basée sur ATmega32 avec schéma et routage PCB sous Altium Designer."
   }
 ]
 
