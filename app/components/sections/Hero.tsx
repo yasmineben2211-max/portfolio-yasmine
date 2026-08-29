@@ -17,13 +17,13 @@ export default function Hero() {
           <Image
             className="rounded-full"
             src="/taswerty6.png"
-            alt="Photo de Yasmine BEN HAJ SALAH"
+            alt="Photo de Yasmine BEN "
             width={150}
             height={120}
             priority
           />
 
-          <h1 className="text-4xl font-bold">Yasmine BEN HAJ SALAH</h1>
+          <h1 className="text-4xl font-bold">Yasmine BEN </h1>
 
           <p className="text-lg text-foreground/80 font-[family-name:var(--font-geist-mono)]">
             Ingénieure en électronique embarquée • Data • IA appliquée
@@ -43,7 +43,7 @@ export default function Hero() {
       <AnimatedText className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
   <a
     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-    href="mailto:yasminebenhajsalah2211@gmail.com"
+    href="mailto:yasmineben2211@gmail.com"
   >
     <Image aria-hidden src="/mail.svg" alt="Email" width={16} height={16} />
     Me contacter
@@ -51,7 +51,7 @@ export default function Hero() {
 
   <a
     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-    href="https://www.linkedin.com/in/yasmine-ben-haj-salah-6215122a0/"
+    href="linkedin.com/in/yasmine-ben-6215122a0"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -61,7 +61,7 @@ export default function Hero() {
 
   <a
     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-    href="https://github.com/yasminebenhajsalah2211-max"
+    href="https://github.com/yasmineben2211-max"
     target="_blank"
     rel="noopener noreferrer"
   >
