@@ -16,7 +16,7 @@ export default function About() {
           <AnimatedText>
   <div className="space-y-4">
     <p className="text-lg text-foreground/80 leading-relaxed">
-      Je m'appelle <strong>Yasmine BEN HAJ SALAH</strong>, ingénieure en électronique embarquée 
+      Je m'appelle <strong>Yasmine BEN </strong>, ingénieure en électronique embarquée 
       actuellement en formation <strong>Expert en Informatique et Systèmes d’Information (Data)</strong> 
       à <strong>SUPINFO Paris</strong>. 
       Mon parcours se situe à l’intersection des <strong>systèmes embarqués</strong>, 

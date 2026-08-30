@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Yasmine Ben Haj Salah | Portfolio",
-  description: "Portfolio de Yasmine Ben Haj Salah – systèmes embarqués, IoT, data et intelligence artificielle.",
+  title: "Yasmine BEN | Portfolio",
+  description: "Portfolio de Yasmine BEN  – systèmes embarqués, IoT, data et intelligence artificielle.",
 };
 
 export default function RootLayout({
