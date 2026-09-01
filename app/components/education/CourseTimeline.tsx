@@ -13,9 +13,9 @@ interface CourseItem {
 // Formation (ordre : plus récent → plus ancien)
 const courses: CourseItem[] = [
   {
-    date: "Fév. 2026 – Sept. 2027",
+    date: "Fév. 2026 – En cours",
     title: "SUPINFO",
-    description: "Expert en informatique & systèmes d’information (Data) | Big Data • Analyse Big Data • Data Engineering"
+    description: "Spécialisation Data & Intelligence Artificielle"
   },
   {
     date: "Sept. 2024 – Sept. 2025",

@@ -7,49 +7,52 @@ import AnimatedText from "../common/AnimatedText"
 // Technologies utilisées
 
 const technologies = {
-
-
-  data_ai: [
+  robotics_ai: [
+    { name: 'ROS', icon: '/skills/ros.svg' },
     { name: 'Python', icon: '/skills/python.svg' },
-    { name: 'PyTorch', icon: '/skills/pytorch.svg' },
-    { name: 'TensorFlow', icon: '/skills/tensorflow.svg' },
-    { name: 'Pandas', icon: '/skills/pandas.svg' },
-    { name: 'NumPy', icon: '/skills/numpy.svg' },
-    { name: 'Power BI', icon: '/skills/powerbi.svg' },
-    { name: 'Apache NiFi', icon: '/skills/nifi.svg' }
-  ],
-
-  computer_vision: [
+    { name: 'C++', icon: '/skills/cpp.svg' },
+    { name: 'LiDAR', icon: '/skills/lidar.svg' },
+    { name: 'IMU', icon: '/skills/imu.svg' },
     { name: 'OpenCV', icon: '/skills/opencv.svg' },
     { name: 'YOLO', icon: '/skills/yolo.svg' }
   ],
 
-  embedded: [
+  embedded_iot: [
     { name: 'C', icon: '/skills/c.svg' },
-    { name: 'C++', icon: '/skills/cpp.svg' },
     { name: 'STM32', icon: '/skills/stm32.svg' },
     { name: 'ESP32', icon: '/skills/esp32.svg' },
+    { name: 'Raspberry Pi', icon: '/skills/raspberrypi.svg' },
+    { name: 'Arduino', icon: '/skills/arduino.svg' },
     { name: 'UART', icon: '/skills/uart.svg' },
-    { name: 'SPI', icon: '/skills/spi.svg' },
-    { name: 'I2C', icon: '/skills/i2c.svg' },
-    { name: 'BLE', icon: '/skills/bluetooth.svg' }
+    { name: 'BLE', icon: '/skills/bluetooth.svg' },
+    { name: 'ZigBee', icon: '/skills/zigbee.svg' }
+  ],
+
+  ai_vision: [
+    { name: 'PyTorch', icon: '/skills/pytorch.svg' },
+    { name: 'TensorFlow', icon: '/skills/tensorflow.svg' },
+    { name: 'Scikit-learn', icon: '/skills/sklearn.svg' },
+    { name: 'Pandas', icon: '/skills/pandas.svg' },
+    { name: 'NumPy', icon: '/skills/numpy.svg' }
   ],
 
   tools: [
-    //{ name: 'Git', icon: '/skills/git.svg' },
-    { name: 'Altium Designer', icon: '/skills/altium.svg' },
+    { name: 'Linux', icon: '/skills/linux.svg' },
     { name: 'Docker', icon: '/skills/docker.svg' },
     { name: 'Kubernetes', icon: '/skills/kubernetes.svg' },
-    { name: 'Oracle VM', icon: '/skills/oraclevm.svg' },
-    { name: 'Linux', icon: '/skills/linux.svg' }
+    { name: 'Git', icon: '/skills/git.svg' },
+    { name: 'Altium Designer', icon: '/skills/altium.svg' },
+    { name: 'MATLAB/Simulink', icon: '/skills/matlab.svg' }
   ]
 }
-  const categories = {
-  data_ai: 'Data & Intelligence Artificielle',
-  computer_vision: 'Vision par Ordinateur',
-  embedded: 'Systèmes Embarqués',
-  tools: 'Outils'
-  }
+
+const categories = {
+  robotics_ai: 'Robotique & IA Embarquée',
+  embedded_iot: 'Systèmes Embarqués & IoT',
+  ai_vision: 'Intelligence Artificielle & Vision',
+  tools: 'Outils & DevOps'
+}
+
 export default function MySkills() {
   return (
     <section id="skills" className="
